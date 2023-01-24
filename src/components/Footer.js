@@ -1,5 +1,5 @@
 import React from 'react';
-import github_logo from '../github-mark-white.png'
+import github_logo from '../github-mark.png'
 import '../index.css';
 import '../App.css';
 export default function Footer(){

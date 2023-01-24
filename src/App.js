@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './App.css';
-import logo from './mlh-prep.png'
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [error, setError] = useState(null);
@@ -31,8 +32,9 @@ function App() {
     return <div>Error: {error.message}</div>;
   } else {
     return <>
-      <img className="logo" src={logo} alt="MLH Prep Logo"></img>
+      
       <div>
+      <Header/>
         <h2>Enter a city below 👇</h2>
         <input
           type="text"
@@ -47,6 +49,7 @@ function App() {
             <i><p>{results.name}, {results.sys.country}</p></i>
           </>}
         </div>
+        <Footer/>
       </div>
     </>
   }
