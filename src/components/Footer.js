@@ -7,7 +7,7 @@ export default function Footer(){
         <div className='footer'>
 
         <span>Contribute </span>
-        <a href="https://github.com/120EE0980/react_app"><img src={github_logo} alt="github"></img></a>
+        <a href="https://github.com/120EE0980/React_weather_app"><img src={github_logo} alt="github"></img></a>
         </div>
     )
 }
