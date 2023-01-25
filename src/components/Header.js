@@ -5,7 +5,7 @@ import '../index.css';
 export default function Header(){
     return(
     <>
-    <h2>WEATHER-FORECAST</h2>
+    <h2 className='header'>WEATHER-FORECAST</h2>
     </>
     )
 }
