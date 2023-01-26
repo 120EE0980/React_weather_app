@@ -34,7 +34,7 @@ function App() {
     return <>
       
       <div>
-      <Header/>
+      <Header name="jj"/>
         <h2>Enter a city below 👇</h2>
         <input
           type="text"
